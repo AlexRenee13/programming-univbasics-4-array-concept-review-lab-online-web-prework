@@ -1,5 +1,5 @@
 def find_element_index(array, value_to_find)
-  array.index 0
+  array.index { |x| x == "0" }
   return nil
 end
 
